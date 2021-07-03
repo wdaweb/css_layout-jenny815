@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 1. link bootstrap.css -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <style>
+    body,
+    html {
+      height: 100%;
+      background: linear-gradient(rgb(41, 41, 41), rgb(70, 69, 69), rgb(41, 41, 41));
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row mb-5 justify-content-center">
+      <div class="col-12 col-sm-8 h2 text-white d-flex justify-content-center justify-content-sm-start">LOGO</div>
+      <div class="col-auto col-sm-1 text-white ">Home</div>
+      <div class="col-auto col-sm-1 text-white ">Features</div>
+      <div class="col-auto col-sm-1 text-white ">Works</div>
+      <div class="col-auto col-sm-1 text-white ">Contact</div>
+    </div>
+    <div class="row">
+      <div class="col d-flex justify-content-center pt-5 mb-4"><img src="https://picsum.photos/150/150/?random=1"
+          class="rounded-circle"></div>
+    </div>
+    <div class="col h1 text-center text-white">
+      <p>Bootstrap Layout</p>
+    </div>
+    <div class="col  text-white px-5 w-75 mx-auto">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex corrupti ducimus tenetur voluptatum est, similique
+        harum possimus consequatur nostrum minima rem commodi debitis quisquam nesciunt consectetur laudantium, amet
+        illo vitae.</p>
+    </div>
+    <div class="col text-center"><button class="rounded p-2">Learn more</button></div>
+    <div class="col text-white text-center fixed-bottom pb-2">Design by KaiFu</div>
+  </div>
+  <!-- 順序要對，要先有 jQuery，再有 popper.js、bootstrap.js  -->
+  <!-- 3. src jquery -->
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <!-- 2. src  bootstrap.bundle.min.js 包含 bootstrap.js、popper.js-->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
